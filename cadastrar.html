@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Cyberwares</title>
+</head>
+<body>
+    <h1>Cyberwares</h1>
+    
+    <form action="Build">
+        <h2>Nova Build</h2>
+        <div class="nes-field">
+            <label for="classe_V">Classe de V</label>
+            <input type="text" id="classe_V" class="nes-input">
+        </div>
+
+        <div class="nes-field">
+            <label for="como_joga_V">Como quer jogar com V?</label>
+            <textarea id="como_joga_V" class="nes-textarea"></textarea>
+        </div>
+
+        <div class="nes-field">
+            <label for="nivel">Nivel atual de V</label>
+            <input type="number" id="nivel" class="nes-input min=" min="1" max="50">
+        </div>
+
+        <div class="botoes">
+            <a href="index.html" class="nes-btn">
+                cancelar
+            </a>
+            <button type="submit" class="nes-btn is-primary">
+                salvar
+            </button>
+        </div>
+
+    </form>
+</body>
+</html>
