@@ -1,0 +1,33 @@
+/*alterar depois para o Cyberpunk CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+body{
+    padding: 1.5rem;
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url('../IMGS/The_Blackwall_Database_CP2077.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    z-index: -10;
+}
+
+h1{
+    color: antiquewhite;
+}
+
+form{
+    max-width: 600px;
+    margin: 1.78rem auto;
+    color: antiquewhite;
+
+    .botoes{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
