@@ -6,6 +6,7 @@ document
         console.log(form.classe_V.value)
 
         const tarefa={
+            id: "id"+new Date().getTime(),
             classe_V: form.classe_V.value,
             como_joga_V: form.como_joga_V.value,
             nivel: form.nivel.value
