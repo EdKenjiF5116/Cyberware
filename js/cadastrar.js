@@ -9,7 +9,8 @@ document
             id: "id"+new Date().getTime(),
             classe_V: form.classe_V.value,
             como_joga_V: form.como_joga_V.value,
-            nivel: form.nivel.value
+            nivel: form.nivel.value,
+            status: 0
         }
 
         salvar(tarefa)

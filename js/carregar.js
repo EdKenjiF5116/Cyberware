@@ -14,10 +14,10 @@ const content = `
             <span class="is-warning"><i class="nes-icon coin is-small"></i></span>
             <span class="is-primary">${tarefa.nivel}</span>
         </a>
-          <progress class="nes-progress is-error" value="10" max="100"></progress>
-            <button type="button" class="nes-btn is-primary">-</button>
+          <progress class="nes-progress is-error" value="${tarefa.status}" max="100"></progress>
+            <button onclick="dec('${tarefa.id}')"type="button" class="nes-btn is-primary">-</button>
             <button onclick="apagar('${tarefa.id}')" type="button" class="nes-btn is-error">FLATILINE</button>
-            <button type="button" class="nes-btn is-primary">+</button>
+            <button onclick="inc('${tarefa.id}')" type="button" class="nes-btn is-primary">+</button>
     </div>
 `
 const card= document.createElement("div")
